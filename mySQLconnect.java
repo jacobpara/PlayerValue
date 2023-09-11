@@ -30,59 +30,6 @@ public class mySQLconnect {
 		}
 		return table; 
 		
-		//finally { 
-			//try {
-				//if (table != null) {
-					//table.close();
-					
-				//}}
-			//catch (SQLException e) {
-				//System.out.println(e.getMessage());
-			//}
-			
-		//}
-	}
-
-	//public Object[][] selectALL() {
-		//String sqlite = "SELECT * FROM Players";
-		//Object[][] lookup = new Object[10][2];
-		//int idcounter = 0;  
-		//try (Connection table = this.connect();
-		             //Statement state = table.createStatement();
-		             //ResultSet rs    = state.executeQuery(sqlite)){
-			   
-			   //while (rs.next()) {
-				   //lookup[idcounter][0] = rs.getInt("PlayerID");
-				   //lookup[idcounter][1] = rs.getString("Name");
-				   //idcounter ++;
-				   
-				   //System.out.println( 
-                           //rs.getString("Name") + "\t    " +
-                           //rs.getString("Nationality") + "\t  " + 
-                           //rs.getString("Position") + "\t" + 
-                           //rs.getInt("Est_Market_Value") + "\t" +
-                           //rs.getInt("XP_Annual_Salary") + "\t" +
-                           //rs.getInt("Revenue_Potential") + "\t" +
-                           //rs.getInt("Age") + "\t"
-						   //);}
-			
-			   
-			   //}   } catch (SQLException e) {
-	            //System.out.println(e.getMessage());
-	            
-		   //}
-		   //return lookup;	   
-	
-	//}
-	
-	
-	
-	//public static void main(String[] args) {
-		
-		//connect();
-		
-	//}
-
 }
 	
 	
